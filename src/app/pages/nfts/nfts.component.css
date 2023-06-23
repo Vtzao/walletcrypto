@@ -1,0 +1,12 @@
+.nfts{
+  height: 100vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+
+.py-5.text-center.container{
+  margin-top: 100px;
+  overflow:auto;
+  cursor: pointer;
+}

@@ -1,0 +1,46 @@
+<nav class="navbar navbar-dark fixed-top">
+  <div class="container-fluid">
+    <div class="p-2 flex-grow-1">
+      <a class="logo" href="#">
+        <img src="assets/img/stats2.png" alt="" width="80px" height="80px">
+      </a>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" ><i class="bi bi-house-door-fill"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="portfolio" routerLinkActive="active-link"><i class="bi bi-box-arrow-up-right"></i> My Portfólio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="ai-editor" routerLinkActive="active-link"><i class="bi bi-cpu"></i> AI Editor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="live-new-pairs" routerLinkActive="active-link"><i class="bi bi-bar-chart-steps"></i> Live New Pairs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="nfts" routerLinkActive="active-link"><i class="bi bi-gem"></i> NFTs  <span class="badge text-bg-warning">Soon</span></a>
+          </li>
+          <br>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search token, pair or orders" title="Search token, pair or orders" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          <hr>
+          <form class="d-flex mt-3">
+            <button class="btn btn-success" type="submit">Connect Wallet</button>
+          </form>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,55 @@
+.ai-editor{
+}
+
+.content-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-left: 10%;
+  overflow: auto;
+  height: 90vh;
+  width: 80%;
+}
+.audit-wrapper{
+  margin: 0 0 0;
+}
+h1{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+  color: rgb(29, 32, 230);
+  font-size: 25pt;
+}
+
+.robot-wrapper{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.robot-wrapper img{
+  width: 80%;
+  filter: hue-rotate(301deg);
+}
+
+.action-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items:baseline;
+  margin-bottom: 1%;
+}
+.paste-text{
+  color: rgb(31, 71, 253);
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+.form-control{
+  margin-bottom: 2%;
+  background-color: rgba(9, 9, 61, 0);
+}

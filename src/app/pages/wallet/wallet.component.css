@@ -1,0 +1,209 @@
+.wallet-route{
+  height: 100vh;
+  overflow: auto;
+  padding-bottom: 130px;
+}
+.main-container{
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 200px;
+  padding-top: 15px;
+}
+.wallet{
+  display: block;
+}
+
+.hero-wrapper img{
+  width: 150px;
+  height: 150px;
+  background: black;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.second-hero-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container{
+  background-color: rgba(0, 0, 0, 0.185);
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.753);
+  width: 100%;
+  margin-top: 20px;
+  overflow: auto;
+}
+@media(max-width:994px){
+  .container.text-center{
+    position: relative;
+    overflow:auto;
+    min-width: 200vw;
+  }
+}
+
+@media(max-width:360px){
+  .container.text-center{
+    position: relative;
+    overflow:auto;
+    min-width: 300vw;
+  }
+}
+
+.row{
+  padding: 25px 10px;
+  border-bottom: 2px solid #101518;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.row.top{
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 17px 10px;
+  font-weight: bolder;
+}
+.row.bottom{
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.row:hover{
+  background-color: #202a30;
+}
+
+.navbar{
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+.list-group-item{
+  color:aliceblue;
+  background-color: #202a30;
+  border: 1px solid #101518;
+}
+/* Copy Address */
+
+.email {
+  display: flex;
+  color: white;
+  margin-top: 5px;
+  padding: 5px 0px;
+  border: none;
+  border-radius: 15px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  cursor: text;
+}
+
+.email p {
+  font-size: 10pt;
+  font-weight: 300;
+  cursor: text;
+  margin-bottom: 0;
+  margin: 5px;
+}
+
+.email .copy{
+ color: white;
+ text-shadow: none;
+ fill: none;
+ height: auto;
+ width: 50px;
+ border-radius: 10px;
+ background-color: #20202400;
+ box-shadow: none;
+ border: none;
+ cursor: pointer;
+}
+
+.email .copy:hover {
+  background-color: #18181a;
+}
+
+.flex{
+  display: flex;
+}
+
+.follow{
+  margin-right: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.net-worth{
+  display: flex;
+  background: #202a30;
+  border-radius: 30px;
+  min-width: 400px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.net-worth h4{
+  font-size: 18px;
+}
+.net-worth h3{
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.sync{
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 8px;
+  border: 1px solid #2c3a43;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.sync h6{
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.green-circle{
+  width: 10px;
+  height: 10px;
+  background: #50c90c;
+  border-radius: 50%;
+  margin: auto 5px auto auto;
+}
+
+
+
+
+
+/* Modal CSS */
+.modal-content{
+  background-color: #101518;
+  margin-top: 200px;
+}
+
+.close:hover{
+  color: grey;
+  cursor: pointer;
+
+}
+
+.modal-header, .modal-body, .modal-footer{
+  border: none;
+}
+
+.modal-body.money{
+  display: flex;
+  justify-content: center;
+}
+
+.form-control{
+  background-color: #202a30;
+  color: aliceblue;
+}
+
+.form-control::placeholder{
+  color: gray;
+}
+
+/* Final Modal */

@@ -1,0 +1,7 @@
+.card-body{
+  background-color: rgb(66, 65, 82);
+}
+
+.col:hover{
+  transform:scale(105%);
+}

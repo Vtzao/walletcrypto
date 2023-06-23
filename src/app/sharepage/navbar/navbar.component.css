@@ -1,0 +1,49 @@
+.offcanvas{
+  width:300px;
+}
+
+.offcanvas-header, .offcanvas-body{
+  background-color: #0c1013a6;
+}
+.nav-link{
+  color: #ffffff;
+  font-weight: bolder;
+  border-radius: 10px;
+  padding: 0.5rem 0.5rem;
+}
+.nav-link:hover{
+  background: #48494b;
+  color: white;
+}
+
+.navbar-toggler{
+  margin-right: 40px;
+  padding: 12px 18px;
+}
+
+.nav-link.active-link{
+  background: rgb(0 77 247);
+  color: #ffffff;
+}
+
+.text-bg-dark{
+  background-color: #0d6efd;
+}
+
+.navbar-dark{
+  background-color: rgba(0, 0, 0, 0.219);
+}
+
+.btn.btn-success{
+  font-weight: 600;
+}
+
+.form-control.me-2{
+  background: #202a30;
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+.form-control.me-2::placeholder{
+  color: #48494b;
+}
